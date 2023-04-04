@@ -1,0 +1,22 @@
+{
+  "name": "search-ts",
+  "version": "1.0.0",
+  "description": "This plugin filters objects from a list taking as input a match value and specifics about the properties to search for",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7rancesco/Search-TS.git"
+  },
+  "keywords": [
+    "search"
+  ],
+  "author": "Francesco Crupi <fcfrancescocrupi@gmail.com> (https://github.com/7rancesco)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7rancesco/Search-TS/issues"
+  },
+  "homepage": "https://github.com/7rancesco/Search-TS#readme"
+}
