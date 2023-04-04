@@ -1,6 +1,6 @@
 {
   "name": "@francescocrupi/search-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This plugin filters objects from a list taking as input a match value and specifics about the properties to search for",
   "main": "index.ts",
   "scripts": {
