@@ -1,5 +1,5 @@
 {
-  "name": "@7rancesco-search",
+  "name": "@francescocrupi/search-ts",
   "version": "1.0.0",
   "description": "This plugin filters objects from a list taking as input a match value and specifics about the properties to search for",
   "main": "index.js",
