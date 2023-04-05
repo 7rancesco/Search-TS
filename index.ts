@@ -9,7 +9,7 @@ export function getSearch (
             //search in specific properties
             properties.forEach( prop => {
                 if(compare(obj[prop], input))
-                output.push(obj[prop])
+                output.push(obj)
             });
         } else {
             //search in each properties
@@ -17,7 +17,7 @@ export function getSearch (
             if(objKeys){
                 objKeys.forEach(key => {
                     if(compare(obj[key], input))
-                    output.push(obj[key])
+                    output.push(obj)
                 });
             }
         }
@@ -36,7 +36,7 @@ function compare( a : any, b : string ){
     input = input.toLowerCase();
 
     const isFound = prop.search(input);
-    if(isFound >= 0){//LIKE
+    if(isFound >= 0){
         return true
     }
     return false
