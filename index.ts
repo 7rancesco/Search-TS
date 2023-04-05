@@ -35,7 +35,8 @@ function compare( a : any, b : string ){
     prop = prop.toLowerCase();
     input = input.toLowerCase();
 
-    if(prop === input){//LIKE
+    const isFound = prop.search(input);
+    if(isFound){//LIKE
         return true
     }
     return false
