@@ -32,8 +32,8 @@ function compare( a : any, b : string ){
     if(isNotString){
         prop.toString();
     }
-    prop.toLowerCase();
-    input.toLowerCase();
+    prop = prop.toLowerCase();
+    input = input.toLowerCase();
 
     if(prop === input){//LIKE
         return true
